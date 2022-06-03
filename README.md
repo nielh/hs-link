@@ -9,6 +9,7 @@ or use my binary [obj/HS-LINK.hex], download it with WCHISPTool
 # How to use HS-LINK adapter
 
 1. Connect HS-LINK to your board
+
 		(HS-LINK)PA0 ---------> (your board)SWCLK
 		(HS-LINK)PA1 <--------> (your board)SWDIO
 		(HS-LINK)PA2 ---------> (your board)nSRST(option)
@@ -17,7 +18,7 @@ or use my binary [obj/HS-LINK.hex], download it with WCHISPTool
 3. Open your arm project with MDK
 4. Select your arm project target debugger as HS-LINK CMSIS-DAP in target options dialog
         select Port is SW, 
-        select max clock you want (MDK cannot choose max clock 24M, The 5K effect is 24M )
+        select max clock you want (MDK cannot choose max clock 24M, `The 5K effect is 24M` )
 5. Ctrl+F5 or click Start Debug Session Button
 
 Good luck :)
